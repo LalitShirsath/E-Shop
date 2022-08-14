@@ -8,6 +8,7 @@ import store from './store';
 import { Provider } from 'react-redux';
 import ContextProvider from './components/context/ContextProvider';
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <ContextProvider>
